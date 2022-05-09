@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cd packages/app && pnpm run start"
+  },
+  "keywords": [],
+  "author": "eliav2",
+  "license": "ISC"
+}

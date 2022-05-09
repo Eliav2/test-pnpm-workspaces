@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/app:
+    specifiers:
+      test-package: '*'
+    dependencies:
+      test-package: link:../test-package
+
+  packages/test-package:
+    specifiers: {}
